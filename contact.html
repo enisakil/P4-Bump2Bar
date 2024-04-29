@@ -1,4 +1,6 @@
+
 <!DOCTYPE html>
+<!-- DEVELOPER: Enis Akil, IS117-004, Spring 2024 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,52 +11,54 @@
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
+    <link href="styles/home.css" rel="stylesheet">
 
 </head>
 <body>
 <div class="container-fluid">
     <div class="row">
-            <nav class="navbar navbar-expand-md
-                    justify-content-start
-                    bg-dark navbar-dark
-                    col-12">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md justify-content-start navbar-custom col-12">
+        <!-- Brand -->
+        <a class="navbar-brand" href="home.html">Bump2Bar</a>
+        <!-- Responsive Button for the smaller menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <!-- Links -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardropwr" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Weekly Roundups</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="april26weeklyroundup.html">April 26th, 2024</a>
+                        <a class="dropdown-item" href="april19weeklyroundup.html">April 19th, 2024</a>
+                        <a class="dropdown-item" href="april12weeklyroundup.html">April 12th, 2024</a>
+                        <a class="dropdown-item" href="april5weeklyroundup.html">April 5th, 2024</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardropvr" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Video Reviews</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="bhadw2videoreview.html">"Baker Has A Deathwish 2"</a>
+                        <a class="dropdown-item" href="nikesb7ballreview.html">Nike SB "7ball</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
 
-                <!-- Brand -->
-                <a class="navbar-brand" href="#">Logo</a>
-                <!-- Responsive Button for the smaller menu -->
-                <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <!-- Links -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link 1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
+    <!-- Text above the form -->
+    <div class="row justify-content-center text-above-form">
+        <div class="col-md-6 text-center">
+            <h2>Join the Mailing List!</h2>
+        </div>
 
-                        <!-- Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Education
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                                <a class="dropdown-item" href="#">Link 4</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+
         <div class="container">
           <div class="row">
             <form action="">
@@ -73,25 +77,22 @@
                     <input type="email" class="form-control" id="email"
                            placeholder="Enter email" name="email">
                 </div>
-                <div class="form-group form-check">
-                    <label class="form-check-label">
-                        <input class="form-check-input"
-                               type="checkbox" name="subscribe"> Subscribe
-                    </label>
-                </div>
+                <br>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-        </row>
 </div>
+<br>
         </div>
  <footer class="footer page-footer font-small ">
      <div class="container">
         <div class="row">
-            <span class="text-muted">&copy; Art Hendela, 2021 |  Terms Of Use  |  Privacy Statement</span>
+            <span class="text-muted">&copy; Bump2Bar, 2024 |  Terms Of Use  |  Privacy Statement</span>
         </div>
      </div>
   </footer>
 </div>
+</div>
+
 
 
     <!-- Javascript Bundle with Popper -->

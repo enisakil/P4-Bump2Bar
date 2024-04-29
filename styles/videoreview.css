@@ -1,0 +1,67 @@
+/*DEVELOPER: Enis Akil, IS117-004, Spring, 2024 */
+body {
+    background-color: #000000; /* Black background for the entire page */
+}
+
+.container-fluid {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: #111111; /* Dark black for the navbar */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white; /* Set the color of navbar links to white */
+}
+.navbar-custom .navbar-brand {
+    color: white;
+}
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.container-fluid {
+    background-color: #1a1a1a; /* Lighter black/grey for the main content */
+}
+
+.article-title {
+    text-align: center; /* Center align the title */
+    color: white; /* Set the color of the title to white */
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.author-name {
+    text-align: center;
+    color:white;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 50%; /* Adjust the percentage as needed */
+    height: auto;
+}
+
+.image-caption {
+    text-align: center;
+    color: grey; /* White color for the caption */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.writing {
+    text-align: left;
+    color: white;
+}
+
+.blockquote {
+    text-align: center;
+    color:white;
+}
+
+.clearfix {
+    color: white;
+}

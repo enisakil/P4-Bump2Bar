@@ -1,0 +1,111 @@
+
+/*DEVELOPER: Enis Akil, IS117-004, Spring, 2024 */
+body {
+    background-color: #000000; /* Black background for the entire page */
+}
+
+.navbar {
+    background-color: #111111; /* Dark black for the navbar */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white; /* Set the color of navbar links to white */
+}
+.navbar-custom .navbar-brand {
+    color: white;
+}
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    color: white !important; /* Set the color of the navbar-toggler icon to white */
+}
+
+.container-fluid {
+    background-color: #1a1a1a; /* Lighter black/grey for the main content */
+}
+
+.text-above-carousel {
+    color: white; /* Set the color of navbar links, brand, and text above carousel to white */
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+#carousel-home {
+    width: 50%;
+    margin: auto;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-container {
+    margin-top: 30px;
+    color: white;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.custom-card .card-title:hover {
+    text-decoration: underline;
+}
+
+a.card-link {
+    text-decoration: none;
+    color: inherit; /* Inherit text color */
+}
+
+a.card-link:hover .card-title {
+    text-decoration: underline;
+}
+
+a.card-link:hover .card-text {
+    text-decoration: underline;
+}
+
+.custom-card {
+    width: 1400px; /* Adjust the width as needed */
+    background-color: #333333;
+}
+.custom-card .card-body {
+    color: white; /* Set text color inside the card body to white */
+}
+.custom-card-group {
+    background-color: #1c1c1c; /* Set background color of card group to a darker shade of black */
+}
+
+.text-above-card {
+    color:white;
+    margin-bottom: 20px;
+}
+
+.custom-img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    transition: filter 0.5s ease;
+}
+.custom-img:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.custom-overlay {
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust the color and opacity as needed */
+    padding: 10px; /* Optional: Add padding for better readability */
+}
+
+.text-above-form {
+    color: white;
+}
+
+

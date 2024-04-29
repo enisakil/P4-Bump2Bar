@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Enis Akil, IS117-004, Spring 2024 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bump2Bar Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="styles/home.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md justify-content-start navbar-custom col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="home.html">Bump2Bar</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardropwr" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Weekly Roundups</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="april26weeklyroundup.html">April 26th, 2024</a>
+                            <a class="dropdown-item" href="april19weeklyroundup.html">April 19th, 2024</a>
+                            <a class="dropdown-item" href="april12weeklyroundup.html">April 12th, 2024</a>
+                            <a class="dropdown-item" href="april5weeklyroundup.html">April 5th, 2024</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardropvr" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Video Reviews</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="bhadw2videoreview.html">"Baker Has A Deathwish 2"</a>
+                            <a class="dropdown-item" href="nikesb7ballreview.html">Nike SB "7ball</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+
+        <!-- Text above the carousel -->
+        <div class="row justify-content-center text-above-carousel">
+        <div class="col-md-6 text-center">
+            <h2>Friday, April 26</h2>
+            <p>Oskar Rozenberg reflects ahead of the olympics, Hermann Stene keeps chomping, and the limosine crew showcase their skills once again. Check out our weekly roundup <a href="april26weeklyroundup.html">here</a></p>
+        </div>
+
+    </div>
+        <!--Carousel of images-->
+        <div id="carousel-home" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/oski.jpg" class="d-block w-100" alt="Oskar Rozenberg in 'Medal Madness'">
+              </div>
+              <div class="carousel-item">
+                <img src="images/limodrop8.png" class="d-block w-100" alt="Limosine's newest offering">
+              </div>
+              <div class="carousel-item">
+                <img src="images/stene.jpeg" class="d-block w-100" alt="Hermann Stene's new part for Pocket Skate Mag">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="row justify-content-center text-container">
+            <div class="col-md-6 text-center">
+                <h2>Past Weekly Roundups</h2>
+            </div>
+
+        <!-- Lined up Cards-->
+        <div class="card-group mt-4 mb-4 custom-card-group">
+            <div class="card custom-card">
+              <img src="images/chloecovelldayone.jpeg" class="card-img-top" alt="Chloe Covell's Day One Part for Nike SB">
+              <div class="card-body">
+                <h5 class="card-title">April 19th, 2024</h5>
+                <p class="card-text">Olympic Hopeful Chloe Covell hits the streets for Nike SB, Everyone's favorite Nomad Wes Kremer teams up with Tyler Surrey for Sk8mafia, and who would've thought you could get tech on an egg board?</p>
+                <a href="april19weeklyroundup.html" class="btn btn-primary">Read The Roundup</a>
+              </div>
+            </div>
+            <div class="card custom-card">
+              <img src="images/zachsaracenoking.jpeg" class="card-img-top" alt="Zach Saraceno for King Skateboards">
+              <div class="card-body">
+                <h5 class="card-title">April 12th, 2024</h5>
+                <p class="card-text">Zach Saraceno drops a stellar debut part for King Skateboards, Our favorite crew from Milan travels to NYC to prove their reach is global, and Neema gives us some more footage from New York's finest. </p>
+                <a href="april12weeklyroundup.html" class="btn btn-primary">Read The Roundup</a>
+              </div>
+            </div>
+            <div class="card custom-card">
+              <img src="images/louielopezroughcut.jpeg" class="card-img-top" alt="Louie Lopez in his Thrasher Rough Cut">
+              <div class="card-body">
+                <h5 class="card-title">April 5th, 2024</h5>
+                <p class="card-text">Louie Lopez drops a feature-length Rough Cut with Thrasher, Technician Tanner Burzinski shows why he's WKND's newest pro, and Nile Gibb's flys through the hills of SF for GX1000.</p>
+                <a href="april5weeklyroundup.html" class="btn btn-primary">Read The Roundup</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="row justify-content-center text-above-card">
+            <div class="col-md-6 text-center">
+                <h2>Checkout our latest Video Review</h2>
+        </div>
+        </div>
+
+        <a href="bhadw2videoreview.html" class="card-link">
+        <div class="card bg-dark text-white custom-card">
+            <img src="images/Baker-Has-A-Deathwish-2.webp" class="card-img custom-img" alt="Brian O'Dwyer in Baker Has A Deathwish 2">
+            <div class="card-img-overlay custom-img custom-overlay">
+              <h5 class="card-title">Baker Has A Deathwish Part 2</h5>
+              <p class="card-text">The latest offering from Baker Skateboards and their sister brand Deathwish, Baker has a Deathwish part 2 is the much anticipated sequel to the now iconic 2008 video. With a whole new group of riders, most of them promising young am's, and a runtime of over 1 hour, does the video live up to the hype?</p>
+            </div>
+          </div>
+        </a>
+        <!-- Footer -->
+        <footer class="footer page-footer font-small">
+            <div class="container">
+                <div class="row">
+                    <span class="text-muted">&copy; Bump2Bar, 2024 | Terms Of Use | Privacy Statement</span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
